@@ -1,0 +1,43 @@
+# CMake build output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Generated reports; keep the directory marker
+/reports/*.txt
+/reports/*.csv
+
+# Log files are generally generated; retain the checked-in sample
+*.log
+!/data/sample.log
+
+# Compiled artifacts
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+/log-analyzer
+/log_analyzer_tests
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.vs/
+.idea/

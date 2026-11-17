@@ -1,0 +1,21 @@
+[2025-03-08 09:00:00] [INFO] [Auth] Authentication service started
+[2025-03-08 09:00:02] [DEBUG] [Auth] Validating credentials for user 1042
+[2025-03-08 09:00:03] [INFO] [Auth] User 1042 authenticated
+[2025-03-08 09:00:05] [WARNING] [Database] Connection pool is near capacity
+[2025-03-08 09:00:06] [ERROR] [Database] Connection timeout while querying users
+[2025-03-08 09:00:07] [ERROR] [Database] Connection timeout while querying users
+[2025-03-08 09:00:08] [INFO] [API] GET /users returned 200 in 24ms
+[2025-03-08 09:00:11] [DEBUG] [API] Request payload validated
+[2025-03-08 09:00:13] [WARNING] [API] Request rate approaching configured limit
+[2025-03-08 09:00:15] [ERROR] [Auth] Invalid token signature
+[2025-03-08 09:00:17] [INFO] [Worker] Background job 881 queued
+[2025-03-08 09:00:19] [ERROR] [Worker] Job 881 failed after retry limit
+[2025-03-08 09:00:20] [ERROR] [Database] Connection timeout while querying users
+[2025-03-08 09:00:22] [DEBUG] [Database] Releasing idle connection
+[2025-03-08 09:00:25] [INFO] [API] GET /health returned 200 in 3ms
+[2025-03-08 09:00:28] [WARNING] [Worker] Job queue latency exceeded 500ms
+[2025-03-08 09:00:30] [ERROR] [API] Upstream service returned HTTP 503
+[2025-03-08 09:00:31] [INFO] [Auth] Session refreshed for user 1042
+this line is intentionally malformed
+[2025-03-08 09:00:33] [TRACE] [API] Unsupported level is intentionally rejected
+[2025-03-08 09:00:36] [ERROR] [Database] Connection timeout while querying users
